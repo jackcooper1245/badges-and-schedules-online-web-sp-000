@@ -19,8 +19,6 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  attendees = []
-  
-  attendees << badge_messages.first + room_assignments.first
-  
+ batch_badge_creator(attendees)
+ assign_rooms(attendees)
 end
