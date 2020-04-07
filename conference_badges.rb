@@ -20,6 +20,7 @@ end
 
 def printer(attendees)
   attendees = []
-  batch_badge_creator(name
+  
+  attendees << badge_messages.first + room_assignments.first
   
 end
